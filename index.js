@@ -17,6 +17,8 @@ class MyRequestClient {
 
     request(opts) {
         // Here you can change the URL, headers and other request parameters
+        // In this case, the request reads env variables HTTP_PROXY
+        // and HTTPS_PROXY to use a corporate proxy
         return this.http.request(opts);
     }
 }
