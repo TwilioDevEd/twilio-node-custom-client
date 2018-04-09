@@ -1,6 +1,6 @@
 # Custom HTTP Clients for the Twilio Node Helper Library
 
-Use the twilio-node helper library with a proxy server
+Use the twilio-node helper library with a proxy server.
 
 ## Usage
 
