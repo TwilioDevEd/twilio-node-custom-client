@@ -17,7 +17,7 @@ const client = twilio(accountSid, authToken, {
 client.messages
     .create({
         to: '+15558675310',
-        from: '+15017122661 ',
+        from: '+15017122661',
         body: 'Hey there!',
     })
     .then(message => console.log(`Message SID ${message.sid}`));
