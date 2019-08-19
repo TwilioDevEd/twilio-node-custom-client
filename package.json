@@ -14,7 +14,7 @@
   "author": "Twilio",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^5.0.1",
+    "dotenv": "^8.1.0",
     "npm": "^5.8.0",
     "twilio": "^3.13.1"
   }
