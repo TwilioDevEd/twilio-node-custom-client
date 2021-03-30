@@ -1,7 +1,7 @@
 {
   "name": "twilio-node-custom-client",
   "version": "1.0.0",
-  "description": "A sample code that shows how to work with custom HTTP client for twilio node helper library",
+  "description": "A sample code that shows how to work with custom HTTP client for twilio Node.JS helper library",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,8 +14,11 @@
   "author": "Twilio",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "dotenv": "^5.0.1",
-    "npm": "^5.8.0",
+    "lodash": "^4.17.21",
+    "npm": "^7.7.6",
+    "qs": "^6.10.1",
     "twilio": "^3.13.1"
   }
 }
