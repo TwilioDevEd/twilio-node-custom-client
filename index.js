@@ -1,9 +1,9 @@
 // require the Twilio module and MyRequestClient
-const twilio = require("twilio");
-const MyRequestClient = require("./MyRequestClient");
+const twilio = require('twilio');
+const MyRequestClient = require('./MyRequestClient');
 
 // Load environment variables
-require("dotenv").config();
+require('dotenv').config();
 
 // Twilio Credentials
 const accountSid = process.env.ACCOUNT_SID;
@@ -16,9 +16,9 @@ const client = twilio(accountSid, authToken, {
 
 client.messages
   .create({
-    to: "+15555555555",
-    from: "+15555555551",
-    body: "Ahoy, custom requestClient!",
+    to: '+15555555555',
+    from: '+15555555551',
+    body: 'Ahoy, custom requestClient!',
   })
   .then((message) => console.log(`Message SID ${message.sid}`))
   .catch((error) => console.error(error));
