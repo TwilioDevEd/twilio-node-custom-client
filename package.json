@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
-    "dotenv": "^5.0.1",
+    "dotenv": "^14.3.0",
     "lodash": "^4.17.21",
     "qs": "^6.10.1",
     "twilio": "^3.13.1"
